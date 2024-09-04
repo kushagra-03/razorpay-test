@@ -1,0 +1,1 @@
+Razorpay.setup("RAZORPAY_KEY_HERE", "RAZORPAY_SECRET_HERE")

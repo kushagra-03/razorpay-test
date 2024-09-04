@@ -25,3 +25,5 @@ rails s
 7. Create New Product
 8. Click on Pay with Razorpay
 9. It'll not work.
+10. Refresh the page.
+11. it'll work.

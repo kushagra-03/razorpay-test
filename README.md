@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To see the same issue that I'm seeing, follow the steps outline below.
 
-Things you may want to cover:
+1. Replace RAZORPAY_KEY_HERE and RAZORPAY_SECRET_HERE in the code base with valid keys.
 
-* Ruby version
+2. Run Setup
+```bash
+bin/setup
+```
 
-* System dependencies
+3. Run
+```bash
+rake db:drop db:create db:migrate
+```
 
-* Configuration
+4. Run rails server
 
-* Database creation
+```bash
+rails s
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5. Go to http://localhost:3000
+6. click on New Product
+7. Create New Product
+8. Click on Pay with Razorpay
+9. It'll not work.

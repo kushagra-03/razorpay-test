@@ -1,6 +1,3 @@
-Here's a slightly more detailed version of your README:
-
----
 
 # README
 
